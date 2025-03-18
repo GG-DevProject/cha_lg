@@ -1,0 +1,44 @@
+{
+  "Chá de Panela": {
+    "Itens para Cozinha": [
+      "Panelas (de diferentes tamanhos)",
+      "Jogo de facas",
+      "Conjunto de talheres",
+      "Frigideira",
+      "Tábua de corte",
+      "Jogo de pratos (sobremesa, jantar, fundo)",
+      "Copos de vidro e taças de vinho",
+      "Jogo de xícaras (café e chá)",
+      "Potes organizadores (para mantimentos)",
+      "Jogo de utensílios de silicone (espátulas, conchas)",
+      "Assadeiras",
+      "Tigelas de diversos tamanhos",
+      "Batedeira ou liquidificador",
+      "Tupperware",
+      "Panos de prato e toalhas de mesa",
+      "Avental de cozinha e luvas térmicas",
+      "Escorredor de louça",
+      "Ralador e espremedor de frutas"
+    ],
+
+    "Itens de Eletrodomésticos": [
+      "Air fryer",
+      "Micro-ondas",
+      "Cafeteira ou máquina de café expresso",
+      "Torradeira",
+      "Processador de alimentos",
+      "Sanduicheira",
+      "Fritadeira elétrica",
+      "Balança de cozinha"
+    ],
+
+    "Itens Decorativos": [
+      "Utensílios de cozinha personalizados",
+      "Porta-temperos",
+      "Jogo americano e guardanapos",
+      "Luminária de mesa ou pendente para cozinha",
+      "Vasos pequenos para flores ou ervas",
+      "Quadros decorativos"
+    ]
+  }
+}
