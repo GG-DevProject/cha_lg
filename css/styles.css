@@ -1,0 +1,50 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #1c1c1c;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.list-group-item {
+  cursor: pointer;
+  font-weight: 500;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #f0e6f5;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #7b7b7b;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #605f60;
+}
