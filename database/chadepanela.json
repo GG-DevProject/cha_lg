@@ -1,0 +1,47 @@
+{
+  "Chá de Casa Nova": {
+    "Itens de Decoração": [
+      "Almofadas e mantas para sofá",
+      "Quadros e fotos decorativas",
+      "Velas aromáticas",
+      "Espelhos",
+      "Vasos para plantas (plantas também são bem-vindas!)",
+      "Tapetes e cortinas",
+      "Luminárias e abajures",
+      "Relógio de parede"
+    ],
+    
+    "Itens para Sala e Estar": [
+      "Conjunto de copos para drinques",
+      "Conjunto de pratos de sobremesa",
+      "Jogo de taças de vinho",
+      "Suporte para TV",
+      "Mesa de centro ou lateral"
+    ],
+    
+    "Itens de Cama, Mesa e Banho": [
+      "Jogo de lençóis",
+      "Toalhas de banho e rosto",
+      "Jogo de toalhas de mesa",
+      "Protetores de colchão e travesseiro",
+      "Travesseiros",
+      "Colchas ou edredons"
+    ],
+    
+    "Itens de Organizador": [
+      "Caixa organizadora para closet",
+      "Cestos para lavanderia",
+      "Organizador de sapatos",
+      "Prateleiras e suportes para livros",
+      "Cabides e porta-jóias"
+    ],
+    
+    "Itens de Utilidades": [
+      "Kit de ferramentas básico",
+      "Cesta de piquenique",
+      "Roupão ou toalha de banho luxuosa",
+      "Carrinho de chá ou café",
+      "Jogo de bar ou jogo de mesa (tipo dominó ou cartas)"
+    ]
+  }
+}
