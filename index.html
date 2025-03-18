@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chá de Panela ou Casa Nova</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Barra de Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Chá de Panela / Chá de Casa Nova</a>
+    </div>
+  </nav>
+
+  <!-- Container Principal -->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Dashboard -->
+      <div class="col-md-12 mb-4">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <h5 class="card-title">Dashboard do Evento</h5>
+            <p><strong>Data e Hora do Evento:</strong> 20 de Março de 2025, 19:00</p>
+            <p><strong>Localização:</strong> Rua Exemplo, 123, Bairro, Cidade</p>
+            <p><strong>Total de Itens:</strong> 20</p>
+            <p><strong>Itens Selecionados:</strong> 0</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lista de Itens -->
+      <div class="col-md-6">
+        <h3>Escolha um Item:</h3>
+        <ul class="list-group" id="itemList">
+          <!-- Itens vão aqui via JavaScript -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Sorteio -->
+  <div class="modal fade" id="sorteioModal" tabindex="-1" aria-labelledby="sorteioModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="sorteioModalLabel">Confirmação do Sorteio</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="sorteioForm">
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome Completo</label>
+              <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="mb-3">
+              <label for="whatsapp" class="form-label">Número do WhatsApp</label>
+              <input type="tel" class="form-control" id="whatsapp" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Confirmar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
